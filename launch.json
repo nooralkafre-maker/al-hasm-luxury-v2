@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Preview AL HASM Website",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/preview/index.html"
+    },
+    {
+      "name": "Preview AL HASM Dashboard",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/preview/dashboard.html"
+    }
+  ]
+}

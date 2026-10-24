@@ -1,0 +1,29 @@
+{
+  "name": "AL HASM Atelier Luxury Properties | Laravel 12",
+  "edition": "Atelier Luxury v2 — animated editorial website and property command center",
+  "source_files": 72,
+  "source_size_kb": 273.3,
+  "capabilities": [
+    "Arabic/English RTL/LTR public website",
+    "Search and filters, property detail, saved and compare",
+    "Mortgage calculator",
+    "Laravel API and SQLite migrations",
+    "Admin login and CRUD for listings, leads, deals, appointments, team, content",
+    "Image uploads and CSV export",
+    "Instant PowerShell localhost preview without dependencies",
+    "First-run Laravel installation script"
+  ],
+  "notes": [
+    "All listings are fictional demo data",
+    "Laravel vendor folder not included; Composer install on first use",
+    "Property photos are remote demo Unsplash images; local illustrated SVG fallback included"
+  ],
+  "added_in_v2": [
+    "3-scene animated hero and navigation",
+    "Editorial property collection, neighborhoods, services and FAQ",
+    "Scroll reveal + reduced motion support",
+    "Enhanced mobile layouts and RTL",
+    "Updated dashboard UI and real record-based property analytics",
+    "Local building illustrations as photo fallback"
+  ]
+}

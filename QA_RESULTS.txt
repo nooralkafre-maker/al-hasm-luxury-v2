@@ -1,0 +1,15 @@
+AL HASM Atelier Luxury v2 — local verification
+
+PASS: JavaScript syntax check (site.js, dashboard.js)
+PASS: PHP -l checks on application, routes, database
+PASS: Front end page render without uncaught JavaScript errors
+PASS: Hero slideshow and slide selection
+PASS: Arabic / English language switch
+PASS: Properties page, detail page, contact form route
+PASS: Admin dashboard overview, property records listing and property creation
+PASS: Admin lead page navigation
+PASS: Mobile navigation and no horizontal overflow at 390px viewport
+
+Checks executed in a headless browser via locally injected JS/CSS due localhost navigation restrictions in the test runtime.
+NOT CHECKED: Full Laravel end-to-end installation and Windows PowerShell .bat execution. These require a Windows machine with PHP/Composer for the Laravel path.
+External Unsplash demo photos require internet; bundled architectural SVG fallback images cover offline display.

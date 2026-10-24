@@ -1,0 +1,20 @@
+/vendor
+/node_modules
+/.env
+/.phpunit.result.cache
+/public/storage
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/database/*.sqlite-journal
+.DS_Store
+.idea
+LOCAL_ACCESS_NOT_FOR_UPLOAD.txt
+.setup_complete
+
+# Local SQLite databases; create with setup script
+/database/*.sqlite
+/database/*.sqlite-*
+# Environment and local secrets
+.env.*
+!.env.example

@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Open Website Demo",
+      "type": "shell",
+      "command": "xdg-open preview/index.html",
+      "windows": {
+        "command": "Start-Process -FilePath \"${workspaceFolder}\\preview\\index.html\""
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Dashboard Demo",
+      "type": "shell",
+      "command": "xdg-open preview/dashboard.html",
+      "windows": {
+        "command": "Start-Process -FilePath \"${workspaceFolder}\\preview\\dashboard.html\""
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Laravel Server",
+      "type": "shell",
+      "command": "php artisan serve --host=127.0.0.1 --port=8000",
+      "problemMatcher": []
+    }
+  ]
+}
